@@ -1,0 +1,15 @@
+# Create a chessboard using a nested list
+chessboard = [["R", "N", "B", "Q", "K", "B", "N", "R"],
+              ["P", "P", "P", "P", "P", "P", "P", "P"],
+              [" ", " ", " ", " ", " ", " ", " ", " "],
+              [" ", " ", " ", " ", " ", " ", " ", " "],
+              [" ", " ", " ", " ", " ", " ", " ", " "],
+              [" ", " ", " ", " ", " ", " ", " ", " "],
+              ["p", "p", "p", "p", "p", "p", "p", "p"],
+              ["r", "n", "b", "q", "k", "b", "n", "r"]]
+
+# Print the chessboard
+for row in chessboard:
+    for piece in row:
+        print(piece, end=" ")
+    print()
